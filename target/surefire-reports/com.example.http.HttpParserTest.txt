@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.http.HttpParserTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.062 s <<< FAILURE! - in com.example.http.HttpParserTest
+ParseHttpRequestBadMethod1(com.example.http.HttpParserTest)  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.example.http.HttpParser.parseHttpRequest(java.io.InputStream)" because "this.httpParser" is null
+	at com.example.http.HttpParserTest.ParseHttpRequestBadMethod1(HttpParserTest.java:32)
+
+ParseHttpRequest(com.example.http.HttpParserTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.example.http.HttpParser.parseHttpRequest(java.io.InputStream)" because "this.httpParser" is null
+	at com.example.http.HttpParserTest.ParseHttpRequest(HttpParserTest.java:26)
+
